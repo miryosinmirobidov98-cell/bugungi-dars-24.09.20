@@ -1,0 +1,24 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+list-style: none;
+text-decoration: none;
+}
+.wrapper{
+display: flex;
+gap: 50px;
+flex-wrap: wrap;
+}
+.div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    border: none;
+    width: 250px;
+    background-color: salmon;
+    border-radius: 250px;
+    height: 30px;
+}
